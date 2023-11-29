@@ -6,5 +6,5 @@ data class UsuarioA(
     val aPaternoA:String,
     val aMaternoA:String,
     val noControl:String,
-    val grupoA:String
+    val grupoA:String//
     )

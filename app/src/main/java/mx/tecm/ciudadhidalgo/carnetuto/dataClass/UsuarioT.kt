@@ -5,5 +5,5 @@ data class UsuarioT(
     val nombreT:String,
     val apellidoPT:String,
     val apellidoMT:String,
-    val grupoT:String
+    val grupoT:String//
     )

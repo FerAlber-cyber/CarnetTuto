@@ -45,7 +45,7 @@ class RegistroAlumnos : AppCompatActivity() {
         btnRegistrarmeA.setOnClickListener {
 
             val emailA = correoA.editText?.text
-            val pswA = passA.editText?.text
+            val pswA = passA.editText?.text//
 
             val usuarioA = UsuarioA(
                 emailA.toString(),

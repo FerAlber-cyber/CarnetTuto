@@ -57,6 +57,7 @@ class LoginT : AppCompatActivity() {
                             }
                             val intent = Intent(this,MenuTutor::class.java)
                             startActivity(intent)
+                            //
                         }
                     }else{
                         notificacion()
