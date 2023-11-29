@@ -1,9 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MenuAlumno">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:stretchColumns="1">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!-- Elemento 1 de la fila 1 -->
+                <ImageButton
+                    android:id="@+id/btnSalirTutor"
+                    android:background="@color/white"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:tint="@color/rojo_c3"
+                    android:src="@drawable/baseline_arrow_circle_left_24"
+                    />
+
+                <!-- Elemento 2 de la fila 1 -->
+                <TextView
+                    android:text="Elemento 2"
+                    android:padding="8dp"/>
+
+            </TableRow>
+
+        </TableLayout>
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewUsuariosA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:listitem="@layout/item_usuario_alumno"/>
+    </LinearLayout>
+
+</ScrollView>

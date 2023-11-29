@@ -16,14 +16,13 @@
 
         <ImageView
             android:id="@+id/logo_login"
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="-280dp"
-            android:layout_marginBottom="-280dp"
-            android:scaleX=".6"
-            android:scaleY=".6"
-            android:src="@drawable/logo_giftstore"
-            android:transitionName="logo_trans" />
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="-55dp"
+            android:scaleX=".5"
+            android:scaleY=".5"
+            android:src="@drawable/logo"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
