@@ -1,4 +1,5 @@
 package mx.tecm.ciudadhidalgo.carnetuto.adaptadores
+
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -19,20 +20,22 @@ class UsuarioTAdapter(private val listaUsuarios: List<UsuarioT>) :
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): UsuarioTViewHolder {
-        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_usuario_tutor, parent, false)
+        val itemView = LayoutInflater.from(parent.context)
+            .inflate(R.layout.item_usuario_tutor, parent, false)
         return UsuarioTViewHolder(itemView)
     }
 
     override fun onBindViewHolder(holder: UsuarioTViewHolder, position: Int) {
         val usuario = listaUsuarios[position]
-        holder.textViewCorreoT.text = "Correo: ${usuario.correoT}"
-        holder.textViewNombreT.text = "Nombre: ${usuario.nombreT}"
-        holder.textViewApellidoPT.text = "Apellido Paterno: ${usuario.apellidoPT}"
-        holder.textViewApellidoMT.text = "Apellido Materno: ${usuario.apellidoMT}"
-        holder.textViewGrupoT.text = "Grupo: ${usuario.grupoT}"
+
+        with(holder) {
+            textViewCorreoT.text = "Correo: ${usuario.correoT}"
+            textViewNombreT.text = "Nombre: ${usuario.nombreT}"
+            textViewApellidoPT.text = "Apellido Paterno: ${usuario.apellidoPT}"
+            textViewApellidoMT.text = "Apellido Materno: ${usuario.apellidoMT}"
+            textViewGrupoT.text = "Grupo: ${usuario.grupoT}"
+        }
     }
 
-    override fun getItemCount(): Int {
-        return listaUsuarios.size
-    }
+    override fun getItemCount(): Int = listaUsuarios.size
 }

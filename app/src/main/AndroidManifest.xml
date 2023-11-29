@@ -13,6 +13,24 @@
         android:theme="@style/Theme.CarneTuto"
         tools:targetApi="31">
         <activity
+            android:name=".RegistroAlumnos"
+            android:exported="false" />
+        <activity
+            android:name=".MenuTutor"
+            android:exported="false" />
+        <activity
+            android:name=".MenuAlumno"
+            android:exported="false" />
+        <activity
+            android:name=".LoginT"
+            android:exported="false" />
+        <activity
+            android:name=".Registro"
+            android:exported="false" />
+        <activity
+            android:name=".LoginA"
+            android:exported="false"/>
+        <activity
             android:name=".Splash"
             android:exported="true">
             <intent-filter>
