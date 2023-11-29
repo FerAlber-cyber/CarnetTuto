@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:stretchColumns="*">
+        <TableRow>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Correo: " />
+            <TextView
+                android:id="@+id/textViewCorreoT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correo: " />
+        </TableRow>
+
+        <TableRow>
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nombre: " />
+            <TextView
+                android:id="@+id/textViewNombreT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre: " />
+        </TableRow>
+
+        <TableRow>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido Paterno: " />
+
+        <TextView
+            android:id="@+id/textViewApellidoPT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido Paterno: "/>
+        </TableRow>
+
+        <TableRow>
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido Materno: " />
+
+        <TextView
+            android:id="@+id/textViewApellidoMT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Apellido Materno: " />
+    </TableRow>
+
+        <TableRow>
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Grupo: " />
+            <TextView
+                android:id="@+id/textViewGrupoT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grupo: " />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

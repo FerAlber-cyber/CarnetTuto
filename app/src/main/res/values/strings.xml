@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Carnet Tuto</string>
+    <string name="texto01">Bienvenido</string>
+    <string name="texto02">Registro de Alumnos</string>
+    <string name="texto03">Recuperar Contraseña</string>
+    <string name="texto04">Nombre Producto</string>
+    <string name="texto05">Descripción Producto</string>
+    <string name="texto06">$ 9,999.99</string>
+    <string name="texto07">Usuario: Nombre del Cliente</string>
+    <string name="hint01">Correo Electrónico</string>
+    <string name="hint02">Contraseña</string>
+    <string name="hint03">Nombre/s</string>
+    <string name="hint04">Apellido Paterno</string>
+    <string name="hint05">Apellido Materno</string>
+    <string name="hint06">No. Control</string>
+    <string name="hint07">Grupo</string>
+    <string name="boton01">Ingresar</string>
+    <string name="boton02">Tutores</string>
+    <string name="boton03">No estoy registrado!!</string>
+    <string name="boton04">Registrar</string>
+    <string name="boton05">Regresa al menu</string>
+    <string name="boton06">Cerrar Sesión</string>
+    <string name="boton07">Recuperar Password</string>
+    <string name="boton08">Regresar</string>
+    <string name="boton09">Comprar</string>
+    <string name="boton10">Finalizar Compra</string>
+    <string name="boton11">Alumnos</string>
+</resources>

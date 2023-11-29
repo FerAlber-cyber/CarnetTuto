@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "467854020258",
+    "project_id": "carnet-3a257",
+    "storage_bucket": "carnet-3a257.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:467854020258:android:59a7320d8e2e590003d1fb",
+        "android_client_info": {
+          "package_name": "mx.tecm.ciudadhidalgo.carnetuto"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyACf13cduPqeGupSlUS61tXk8izxZP5gJ0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
