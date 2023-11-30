@@ -10,7 +10,8 @@
     <color name="rojo_c3">#C32217</color>
     <color name="gris_5e">#5E5E5E</color>
     <color name="gray">#B8B8B8</color>
-    <color name="azul">#386BEC</color>
+    <color name="azul">#001253</color>
     <color name="naranja">#FF9800</color>
     <color name="amarillo">#CAFF4F</color>
+    <color name="dorado">#f5ca7c</color>
 </resources>

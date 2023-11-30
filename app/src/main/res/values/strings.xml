@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Carnet Tuto</string>
+    <string name="app_name">Digital Carnet</string>
     <string name="texto01">Bienvenido</string>
     <string name="texto02">Registro de Alumnos</string>
     <string name="texto03">Recuperar Contraseña</string>
