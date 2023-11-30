@@ -53,7 +53,7 @@
                     android:id="@+id/btnCanalizacion"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Canalizacion Academ"
+                    android:text="Canalizacion"
                     android:backgroundTint="@color/azul"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
@@ -63,7 +63,7 @@
                     android:id="@+id/btnAsesoriaAca"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Canalización"
+                    android:text="Canalización Academica"
                     android:backgroundTint="#00001253"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>

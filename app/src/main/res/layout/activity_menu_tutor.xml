@@ -57,7 +57,7 @@
                 <!-- Elemento 4 de la fila 1 -->
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnAsesoriAcaTutor"
-                    android:text="Asesoria"
+                    android:text="Canalizacion Academica"
                     android:backgroundTint="#00001253"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>

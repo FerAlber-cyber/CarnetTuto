@@ -5,6 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo01"
     tools:context=".EntrevistaTutor">
 
     <HorizontalScrollView
@@ -55,7 +56,7 @@
                 <!-- Elemento 4 de la fila 1 -->
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnAsesoriAcaTutor"
-                    android:text="Asesoria"
+                    android:text="Canalizacion Academica"
                     android:textColor="@color/dorado"
                     android:background="#00001253"
                     android:padding="8dp"/>
