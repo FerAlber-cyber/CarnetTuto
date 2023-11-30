@@ -18,8 +18,8 @@ class RegistroAlumnos : AppCompatActivity() {
 
     private lateinit var noControl: TextInputLayout
     private lateinit var nombreA: TextInputLayout
-    private lateinit var apellidoMA: TextInputLayout
-    private lateinit var apellidoPA: TextInputLayout
+    private lateinit var aMaternoA: TextInputLayout
+    private lateinit var aPaternoA: TextInputLayout
     private lateinit var correoA: TextInputLayout
     private lateinit var grupoA: TextInputLayout
     private lateinit var passA: TextInputLayout
@@ -37,8 +37,8 @@ class RegistroAlumnos : AppCompatActivity() {
         btnRegresarA = findViewById(R.id.btnYaEstoyRegistradoA)
         noControl = findViewById(R.id.noControlA)
         nombreA = findViewById(R.id.nombreA)
-        apellidoMA = findViewById(R.id.apellidoMA)
-        apellidoPA = findViewById(R.id.apellidoPA)
+        aPaternoA = findViewById(R.id.apellidoPA)
+        aMaternoA = findViewById(R.id.apellidoMA)
         correoA = findViewById(R.id.email_registroA)
         grupoA = findViewById(R.id.grupoA)
         passA = findViewById(R.id.password_registroA)
@@ -51,15 +51,15 @@ class RegistroAlumnos : AppCompatActivity() {
             val usuarioA = UsuarioA(
                 emailA.toString(),
                 nombreA.editText?.text.toString(),
-                apellidoPA.editText?.text.toString(),
-                apellidoMA.editText?.text.toString(),
+                aPaternoA.editText?.text.toString(),
+                aMaternoA.editText?.text.toString(),
                 noControl.editText?.text.toString(),
                 grupoA.editText?.text.toString())
 
             val confirmaDialogo = AlertDialog.Builder(it.context)
             confirmaDialogo.setTitle("Confirmar Usuario")
             confirmaDialogo.setMessage("""
-                Usuario: ${nombreA.editText?.text} ${apellidoPA.editText?.text} ${apellidoMA.editText?.text}
+                Usuario: ${nombreA.editText?.text} ${aPaternoA.editText?.text} ${aMaternoA.editText?.text}
                 Correo: ${correoA.editText?.text}
                 Contraseña: ${passA.editText?.text}
                 """.trimIndent())

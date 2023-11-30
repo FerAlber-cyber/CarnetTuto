@@ -29,12 +29,12 @@ class UsuarioAAdapter(private val listaUsuariosA: List<UsuarioA>) :
         val usuarioA = listaUsuariosA[position]
 
         with(holder) {
-            textViewCorreoA.text = "Correo: ${usuarioA.correoInst}"
-            textViewNombreA.text = "Nombre: ${usuarioA.nombreA}"
-            textViewApellidoPA.text = "Apellido Paterno: ${usuarioA.aPaternoA}"
-            textViewApellidoMA.text = "Apellido Materno: ${usuarioA.aMaternoA}"
-            textViewNoControl.text = "No. Control: ${usuarioA.noControl}"
-            textViewGrupoA.text = "Grupo: ${usuarioA.grupoA}"
+            textViewCorreoA.text = "${usuarioA.correoInst}"
+            textViewNombreA.text = "${usuarioA.nombreA}"
+            textViewApellidoPA.text = "${usuarioA.aPaternoA}"
+            textViewApellidoMA.text = "${usuarioA.aMaternoA}"
+            textViewNoControl.text = "${usuarioA.noControl}"
+            textViewGrupoA.text = "${usuarioA.grupoA}"
         }
     }
 

@@ -29,11 +29,11 @@ class UsuarioTAdapter(private val listaUsuarios: List<UsuarioT>) :
         val usuario = listaUsuarios[position]
 
         with(holder) {
-            textViewCorreoT.text = "Correo: ${usuario.correoT}"
-            textViewNombreT.text = "Nombre: ${usuario.nombreT}"
-            textViewApellidoPT.text = "Apellido Paterno: ${usuario.apellidoPT}"
-            textViewApellidoMT.text = "Apellido Materno: ${usuario.apellidoMT}"
-            textViewGrupoT.text = "Grupo: ${usuario.grupoT}"
+            textViewCorreoT.text = "${usuario.correoT}"
+            textViewNombreT.text = "${usuario.nombreT}"
+            textViewApellidoPT.text = "${usuario.apellidoPT}"
+            textViewApellidoMT.text = "${usuario.apellidoMT}"
+            textViewGrupoT.text = "${usuario.grupoT}"
         }
     }
 
