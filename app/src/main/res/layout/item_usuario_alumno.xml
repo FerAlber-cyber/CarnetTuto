@@ -13,14 +13,22 @@
         <TableRow>
             <TextView
                 android:id="@+id/text1"
+                android:layout_marginBottom="5dp"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
+                android:textColor="@color/black"
                 android:textSize="18dp"
+                android:textStyle="bold"
                 android:text="Correo: " />
             <TextView
                 android:id="@+id/textViewCorreoA"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+
+                android:textColor="@color/black"
                 android:textSize="18dp"
                 android:text="Correo: " />
         </TableRow>
@@ -30,12 +38,20 @@
                 android:id="@+id/text2"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:textSize="18dp"
                 android:text="Nombre: " />
             <TextView
                 android:id="@+id/textViewNombreA"
                 android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
                 android:layout_height="wrap_content"
+
+                android:textColor="@color/black"
                 android:textSize="18dp"
                 android:text="Nombre: " />
         </TableRow>
@@ -44,14 +60,22 @@
                 android:id="@+id/text3"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+
+                android:textColor="@color/black"
                 android:textSize="18dp"
                 android:text="No Control: "/>
 
             <TextView
                 android:id="@+id/textViewNoControl"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18dp"
+
+                android:textColor="@color/black"
                 android:text="No Control: "/>
 
         </TableRow>
@@ -61,13 +85,19 @@
                 android:id="@+id/text4"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
                 android:textSize="18dp"
+                android:textColor="@color/black"
                 android:text="Apellido Paterno: " />
 
             <TextView
                 android:id="@+id/textViewApellidoPA"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textColor="@color/black"
                 android:textSize="18dp"
                 android:text="Apellido Paterno: "/>
         </TableRow>
@@ -77,14 +107,20 @@
                 android:id="@+id/text5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="18dp"
                 android:text="Apellido Materno: " />
 
             <TextView
                 android:id="@+id/textViewApellidoMA"
                 android:layout_width="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
                 android:layout_height="wrap_content"
                 android:textSize="18dp"
+                android:textColor="@color/black"
                 android:text="Apellido Materno: " />
         </TableRow>
 
@@ -94,11 +130,18 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18dp"
+                android:layout_marginBottom="5dp"
+
+                android:textColor="@color/black"
+                android:textStyle="bold"
                 android:text="Grupo: " />
             <TextView
                 android:id="@+id/textViewGrupoA"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
                 android:textSize="18dp"
                 android:text="Grupo: " />
         </TableRow>

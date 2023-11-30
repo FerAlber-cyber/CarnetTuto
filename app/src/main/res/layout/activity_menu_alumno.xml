@@ -5,7 +5,12 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondo01"
     tools:context=".MenuAlumno">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,7 +25,8 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:background="@color/azul">
+                android:layout_margin="10dp"
+                android:background="@drawable/viewholder_background1">
 
                 <!-- Elemento 2 de la fila 1 -->
                 <Button
@@ -28,6 +34,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Menu"
+                    android:backgroundTint="#00001253"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
@@ -37,6 +44,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:text="Entrevista"
+                    android:backgroundTint="@color/azul"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
@@ -45,7 +53,8 @@
                     android:id="@+id/btnCanalizacion"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Canalizacion"
+                    android:text="Canalizacion Academ"
+                    android:backgroundTint="@color/azul"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
@@ -54,7 +63,8 @@
                     android:id="@+id/btnAsesoriaAca"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:text="Can.Ase"
+                    android:text="Canalización"
+                    android:backgroundTint="#00001253"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
             </TableRow>
@@ -68,5 +78,7 @@
             tools:listitem="@layout/item_usuario_alumno"/>
 
     </LinearLayout>
+
+    </HorizontalScrollView>
 
 </ScrollView>

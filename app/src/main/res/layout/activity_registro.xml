@@ -6,9 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="40dp"
-    android:background="@color/white"
+    android:background="@drawable/fondo03"
     tools:context=".Registro">
-
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -20,22 +19,24 @@
             android:id="@+id/logo_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
-            android:layout_marginBottom="-55dp"
-            android:scaleX=".5"
-            android:scaleY=".5"
-            android:src="@drawable/logo" />
+            android:layout_marginTop="-15dp"
+            android:layout_marginBottom="-40dp"
+            android:scaleX=".55"
+            android:scaleY=".55"
+            android:src="@drawable/logo"/>
 
         <TextView
             app:layout_constraintTop_toBottomOf="@+id/logo_login"
             android:id="@+id/Texto1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
             android:text="Registro Tutores"
-            android:textSize="24sp"
+            android:textSize="25sp"
             android:textStyle="bold"
             android:textAlignment="center"
-            android:textColor="@color/rojo_c3"/>
+            android:gravity="center"
+            android:background="@drawable/viewholder_background1"
+            android:textColor="@color/dorado"/>
 
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/nombreT"
@@ -44,8 +45,9 @@
             android:layout_marginTop="20dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/hint03"
-            app:hintTextColor="@color/gris_5e"
-            app:boxStrokeColor="@color/rojo_c3">
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -61,8 +63,10 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/hint04"
-            app:hintTextColor="@color/gris_5e"
-            app:boxStrokeColor="@color/rojo_c3">
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -77,8 +81,10 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/hint05"
-            app:hintTextColor="@color/gris_5e"
-            app:boxStrokeColor="@color/rojo_c3">
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -91,11 +97,12 @@
             android:id="@+id/grupoT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/hint07"
-            app:hintTextColor="@color/gris_5e"
-            app:boxStrokeColor="@color/rojo_c3">
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:layout_width="match_parent"
@@ -107,11 +114,12 @@
             android:id="@+id/email_registroT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/hint01"
-            app:hintTextColor="@color/gris_5e"
-            app:boxStrokeColor="@color/rojo_c3">
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -124,10 +132,12 @@
             android:id="@+id/password_registroT"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/hint02"
-            app:hintTextColor="@color/gris_5e"
-            app:boxStrokeColor="@color/rojo_c3"
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul"
             app:passwordToggleEnabled="true">
 
 
@@ -141,15 +151,14 @@
         <Button
             android:id="@+id/btnRegistrarme"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="55dp"
             android:layout_marginTop="25dp"
-            android:backgroundTint="@color/rojo_c3"
+            android:backgroundTint="@color/azul"
+            app:cornerRadius="20dp"
             android:text="@string/boton04"
             android:textAllCaps="true"
-            android:textColor="@color/white"
-            android:textSize="16sp"
-
-            />
+            android:textColor="@color/dorado"
+            android:textSize="16sp"/>
 
         <Button
             android:id="@+id/btnYaEstoyRegistrado"

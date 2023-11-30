@@ -6,8 +6,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="40dp"
-    android:background="@color/white"
-    tools:context=".LoginA">
+    tools:context=".LoginA"
+    android:background="@drawable/fondo01">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -18,19 +18,21 @@
         android:id="@+id/logo_login"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="0dp"
+        android:layout_marginTop="-10dp"
         android:layout_marginBottom="-55dp"
-        android:scaleX=".5"
-        android:scaleY=".5"
+        android:scaleX=".55"
+        android:scaleY=".55"
         android:src="@drawable/logo" />
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="@string/texto01"
+            android:layout_marginTop="10dp"
             android:textAlignment="center"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:textColor="@color/rojo_c3"
+            android:background="@drawable/viewholder_background1"
+            android:textColor="@color/dorado"
             android:layout_marginBottom="50dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -39,8 +41,9 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/hint01"
-            app:hintTextColor="@color/gris_5e"
-            app:boxStrokeColor="@color/rojo_c3">
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -56,8 +59,10 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/hint02"
-            app:hintTextColor="@color/gris_5e"
-            app:boxStrokeColor="@color/rojo_c3"
+            android:layout_marginTop="10dp"
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul"
             app:passwordToggleEnabled="true">
 
 
@@ -80,20 +85,24 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/boton02"
+                android:layout_marginTop="5dp"
+                android:textStyle="bold"
                 android:textAllCaps="false"
                 android:textColor="@color/gris_5e"
-                android:textSize="10sp"
+                android:textSize="13sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:ignore="MissingConstraints" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnIngresar"
+                app:cornerRadius="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/rojo_c3"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:backgroundTint="@color/azul"
                 android:text="@string/boton01"
                 android:textAllCaps="true"
-                android:textColor="@color/white"
+                android:textColor="@color/dorado"
                 android:textSize="14sp"
                 app:layout_constraintTop_toBottomOf="@+id/btnTutores"
                 tools:ignore="MissingConstraints" />
@@ -106,7 +115,7 @@
                 android:text="@string/boton03"
                 android:textAllCaps="false"
                 android:textColor="@color/gris_5e"
-                android:textSize="12sp"
+                android:textSize="15sp"
                 android:textStyle="bold"
                 android:layout_marginTop="38dp"
                 app:layout_constraintEnd_toEndOf="parent"

@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="40dp"
-    android:background="@color/white"
+    android:background="@drawable/fondo01"
     tools:context=".LoginT">
 
     <LinearLayout
@@ -18,10 +18,10 @@
             android:id="@+id/logo_login"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="0dp"
-            android:layout_marginBottom="-55dp"
-            android:scaleX=".5"
-            android:scaleY=".5"
+            android:layout_marginTop="-25dp"
+            android:layout_marginBottom="-40dp"
+            android:scaleX=".55"
+            android:scaleY=".55"
             android:src="@drawable/logo"/>
         <TextView
             android:layout_width="match_parent"
@@ -30,7 +30,8 @@
             android:textAlignment="center"
             android:textSize="30sp"
             android:textStyle="bold"
-            android:textColor="@color/rojo_c3"
+            android:background="@drawable/viewholder_background1"
+            android:textColor="#D1AA64"
             android:layout_marginBottom="50dp"/>
 
         <com.google.android.material.textfield.TextInputLayout
@@ -39,8 +40,9 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/hint01"
-            app:hintTextColor="@color/gris_5e"
-            app:boxStrokeColor="@color/rojo_c3">
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul">
 
 
             <com.google.android.material.textfield.TextInputEditText
@@ -56,8 +58,10 @@
             android:layout_height="wrap_content"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:hint="@string/hint02"
-            app:hintTextColor="@color/gris_5e"
-            app:boxStrokeColor="@color/rojo_c3"
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul"
+            android:layout_marginTop="10dp"
             app:passwordToggleEnabled="true">
 
 
@@ -80,20 +84,22 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/boton11"
+                android:textStyle="bold"
                 android:textAllCaps="false"
                 android:textColor="@color/gris_5e"
-                android:textSize="10sp"
+                android:textSize="13sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 tools:ignore="MissingConstraints" />
 
             <com.google.android.material.button.MaterialButton
                 android:id="@+id/btnIngresarT"
+                app:cornerRadius="20dp"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:backgroundTint="@color/rojo_c3"
+                android:layout_height="55dp"
+                android:backgroundTint="#CE001253"
                 android:text="@string/boton01"
                 android:textAllCaps="true"
-                android:textColor="@color/white"
+                android:textColor="#E1B870"
                 android:textSize="14sp"
                 app:layout_constraintTop_toBottomOf="@+id/btnAlumnos"
                 tools:ignore="MissingConstraints" />
@@ -106,7 +112,7 @@
                 android:text="@string/boton03"
                 android:textAllCaps="false"
                 android:textColor="@color/gris_5e"
-                android:textSize="12sp"
+                android:textSize="15sp"
                 android:textStyle="bold"
                 android:layout_marginTop="38dp"
                 app:layout_constraintEnd_toEndOf="parent"

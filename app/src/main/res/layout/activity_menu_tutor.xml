@@ -6,15 +6,17 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
-    android:background="@color/white"
+    android:background="@drawable/fondo01"
     tools:context=".MenuTutor">
+
+    <HorizontalScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical">
-
-
 
         <TableLayout
             android:layout_width="match_parent"
@@ -24,13 +26,15 @@
             <TableRow
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:background="@color/azul">
+                android:layout_marginTop="5dp"
+                android:background="@drawable/viewholder_background1">
 
                 <!-- Elemento 1 de la fila 1 -->
                 <!-- Elemento 2 de la fila 1 -->
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnMenuTutor"
                     android:text="Menu"
+                    android:backgroundTint="#00001253"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
@@ -38,6 +42,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnEntrevistaTutor"
                     android:text="Entrevista"
+                    android:backgroundTint="@color/azul"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
@@ -45,6 +50,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnCanalizacionTutor"
                     android:text="Canalizacion"
+                    android:backgroundTint="@color/azul"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
@@ -52,6 +58,7 @@
                 <com.google.android.material.button.MaterialButton
                     android:id="@+id/btnAsesoriAcaTutor"
                     android:text="Asesoria"
+                    android:backgroundTint="#00001253"
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
@@ -70,5 +77,7 @@
             android:layout_height="wrap_content"
             android:text="Alumnos"/>
     </LinearLayout>
+
+    </HorizontalScrollView>
 
 </ScrollView>
