@@ -35,6 +35,7 @@ class RegistroAlumnos : AppCompatActivity() {
 
         btnRegistrarmeA = findViewById(R.id.btnRegistrarmeA)
         btnRegresarA = findViewById(R.id.btnYaEstoyRegistradoA)
+        noControl = findViewById(R.id.noControlA)
         nombreA = findViewById(R.id.nombreA)
         apellidoMA = findViewById(R.id.apellidoMA)
         apellidoPA = findViewById(R.id.apellidoPA)
@@ -49,10 +50,10 @@ class RegistroAlumnos : AppCompatActivity() {
 
             val usuarioA = UsuarioA(
                 emailA.toString(),
-                noControl.editText?.text.toString(),
                 nombreA.editText?.text.toString(),
                 apellidoPA.editText?.text.toString(),
                 apellidoMA.editText?.text.toString(),
+                noControl.editText?.text.toString(),
                 grupoA.editText?.text.toString())
 
             val confirmaDialogo = AlertDialog.Builder(it.context)

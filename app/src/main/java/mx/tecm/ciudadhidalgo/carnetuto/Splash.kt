@@ -15,7 +15,7 @@ class Splash : AppCompatActivity() {
 
         Handler().postDelayed({
             // Inicia la siguiente actividad después del tiempo especificado
-            val intent = Intent(this@Splash, LoginA::class.java)
+            val intent = Intent(this, LoginA::class.java)
             startActivity(intent)
 
             // Cierra la actividad actual
