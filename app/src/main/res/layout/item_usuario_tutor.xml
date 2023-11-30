@@ -15,11 +15,13 @@
         android:id="@+id/text1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textSize="18dp"
         android:text="Correo: " />
             <TextView
                 android:id="@+id/textViewCorreoT"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
                 android:text="Correo: " />
         </TableRow>
 
@@ -28,11 +30,13 @@
             android:id="@+id/text2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="18dp"
             android:text="Nombre: " />
             <TextView
                 android:id="@+id/textViewNombreT"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
                 android:text="Nombre: " />
         </TableRow>
 
@@ -41,12 +45,14 @@
             android:id="@+id/text3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="18dp"
             android:text="Apellido Paterno: " />
 
         <TextView
             android:id="@+id/textViewApellidoPT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="18dp"
             android:text="Apellido Paterno: "/>
         </TableRow>
 
@@ -55,12 +61,14 @@
             android:id="@+id/text4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="18dp"
             android:text="Apellido Materno: " />
 
         <TextView
             android:id="@+id/textViewApellidoMT"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="18dp"
             android:text="Apellido Materno: " />
     </TableRow>
 
@@ -69,11 +77,13 @@
             android:id="@+id/text5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:textSize="18dp"
             android:text="Grupo: " />
             <TextView
                 android:id="@+id/textViewGrupoT"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:textSize="18dp"
                 android:text="Grupo: " />
         </TableRow>
     </TableLayout>

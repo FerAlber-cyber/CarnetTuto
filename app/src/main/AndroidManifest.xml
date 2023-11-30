@@ -13,6 +13,27 @@
         android:theme="@style/Theme.CarneTuto"
         tools:targetApi="31">
         <activity
+            android:name=".AlumnosTable"
+            android:exported="false" />
+        <activity
+            android:name=".AsesoriasTutor"
+            android:exported="false" />
+        <activity
+            android:name=".CanalizacionTutor"
+            android:exported="false" />
+        <activity
+            android:name=".EntrevistaTutor"
+            android:exported="false" />
+        <activity
+            android:name=".AsesoriaAcademicaAlumno"
+            android:exported="false" />
+        <activity
+            android:name=".CanalizacionAlumnos"
+            android:exported="false" />
+        <activity
+            android:name=".EntrevistaAlumno"
+            android:exported="false" />
+        <activity
             android:name=".RegistroAlumnos"
             android:exported="false" />
         <activity
@@ -29,7 +50,7 @@
             android:exported="false" />
         <activity
             android:name=".LoginA"
-            android:exported="false"/>
+            android:exported="false" />
         <activity
             android:name=".Splash"
             android:exported="true">

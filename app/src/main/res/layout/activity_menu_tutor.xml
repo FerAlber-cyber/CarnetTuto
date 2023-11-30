@@ -14,28 +14,45 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+
+
         <TableLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:stretchColumns="1">
+            android:stretchColumns="4">
 
             <TableRow
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content">
+                android:layout_height="wrap_content"
+                android:background="@color/azul">
 
                 <!-- Elemento 1 de la fila 1 -->
-                <ImageButton
-                    android:id="@+id/btnSalirTutor"
-                    android:background="@color/white"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    app:tint="@color/rojo_c3"
-                    android:src="@drawable/baseline_arrow_circle_left_24"
-                    />
-
                 <!-- Elemento 2 de la fila 1 -->
-                <TextView
-                    android:text="Elemento 2"
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnMenuTutor"
+                    android:text="Menu"
+                    android:textColor="@color/dorado"
+                    android:padding="8dp"/>
+
+                <!-- Elemento 3 de la fila 1 -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnEntrevistaTutor"
+                    android:text="Entrevista"
+                    android:textColor="@color/dorado"
+                    android:padding="8dp"/>
+
+                <!-- Elemento 4 de la fila 1 -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnCanalizacionTutor"
+                    android:text="Canalizacion"
+                    android:textColor="@color/dorado"
+                    android:padding="8dp"/>
+
+                <!-- Elemento 4 de la fila 1 -->
+                <com.google.android.material.button.MaterialButton
+                    android:id="@+id/btnAsesoriAcaTutor"
+                    android:text="Asesoria"
+                    android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
             </TableRow>
@@ -47,8 +64,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             tools:listitem="@layout/item_usuario_tutor" />
-
-
+        <Button
+            android:id="@+id/btnAlumnosModify"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alumnos"/>
     </LinearLayout>
 
 </ScrollView>

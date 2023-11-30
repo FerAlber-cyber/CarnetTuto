@@ -5,12 +5,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuAlumno">
+    tools:context=".EntrevistaAlumno">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
         <TableLayout
             android:layout_width="match_parent"
@@ -22,7 +21,6 @@
                 android:layout_height="match_parent"
                 android:background="@color/azul">
 
-                <!-- Elemento 2 de la fila 1 -->
                 <Button
                     android:id="@+id/btnMenuAlum"
                     android:layout_width="match_parent"
@@ -31,7 +29,6 @@
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
-                <!-- Elemento 3 de la fila 1 -->
                 <Button
                     android:id="@+id/btnEntrevista"
                     android:layout_width="match_parent"
@@ -40,7 +37,6 @@
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
-                <!-- Elemento 4 de la fila 1 -->
                 <Button
                     android:id="@+id/btnCanalizacion"
                     android:layout_width="match_parent"
@@ -49,7 +45,6 @@
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
 
-                <!-- Elemento 4 de la fila 1 -->
                 <Button
                     android:id="@+id/btnAsesoriaAca"
                     android:layout_width="match_parent"
@@ -58,15 +53,7 @@
                     android:textColor="@color/dorado"
                     android:padding="8dp"/>
             </TableRow>
-
         </TableLayout>
-
-        <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/recyclerViewUsuariosA"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            tools:listitem="@layout/item_usuario_alumno"/>
-
     </LinearLayout>
 
 </ScrollView>
