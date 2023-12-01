@@ -11,6 +11,12 @@ import mx.tecm.ciudadhidalgo.carnetuto.dataClass.EntrevistaAlumn
 class EntrevistaAlumnAdapter(val listaEntrevista: ArrayList<EntrevistaAlumn>)
     : RecyclerView.Adapter<EntrevistaAlumnAdapter.EntrevistaViewHolder>() {
 
+    class EntrevistaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
+        val fecha: TextView = itemView.findViewById(R.id.fechaEntre)
+        val noControl: TextView = itemView.findViewById(R.id.noControl)
+        val temaEntre: TextView = itemView.findViewById(R.id.temaEntre)
+    }
+
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): EntrevistaViewHolder {
         val vista = LayoutInflater.from(parent.context)
             .inflate(R.layout.card_entrevistas, parent, false)
@@ -28,9 +34,4 @@ class EntrevistaAlumnAdapter(val listaEntrevista: ArrayList<EntrevistaAlumn>)
         return listaEntrevista.size
     }
 
-    class EntrevistaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val fecha: TextView = itemView.findViewById(R.id.fechaEntre)
-        val noControl: TextView = itemView.findViewById(R.id.noControl)
-        val temaEntre: TextView = itemView.findViewById(R.id.temaEntre)
-    }
 }

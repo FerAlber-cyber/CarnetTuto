@@ -2,7 +2,11 @@
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="4dp"
+    app:cardCornerRadius="10dp"
+
+    android:layout_marginVertical="5dp">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -20,7 +24,7 @@
 
                 <TextView
                     android:id="@+id/fechaEntre"
-                    android:layout_width="match_parent"
+                    android:layout_width="80dp"
                     android:layout_height="50dp"
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginVertical="5dp"
@@ -28,14 +32,14 @@
                 <TextView
                     android:id="@+id/noControl"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginVertical="5dp"
                     android:text="no Control"/>
                 <TextView
                     android:id="@+id/temaEntre"
                     android:layout_width="match_parent"
-                    android:layout_height="50dp"
+                    android:layout_height="wrap_content"
                     android:layout_marginHorizontal="10dp"
                     android:layout_marginVertical="5dp"
                     android:text="Tema Entrevista"/>

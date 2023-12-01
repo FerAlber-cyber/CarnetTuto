@@ -8,8 +8,8 @@ import androidx.recyclerview.widget.RecyclerView
 import mx.tecm.ciudadhidalgo.carnetuto.R
 import mx.tecm.ciudadhidalgo.carnetuto.dataClass.UsuarioT
 
-class UsuarioTAdapter(private val listaUsuarios: List<UsuarioT>) :
-    RecyclerView.Adapter<UsuarioTAdapter.UsuarioTViewHolder>() {
+class UsuarioTAdapter(private val listaUsuarios: List<UsuarioT>)
+    : RecyclerView.Adapter<UsuarioTAdapter.UsuarioTViewHolder>() {
 
     class UsuarioTViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val textViewCorreoT: TextView = itemView.findViewById(R.id.textViewCorreoT)
