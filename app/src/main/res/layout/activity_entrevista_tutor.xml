@@ -62,8 +62,85 @@
                     android:padding="8dp"/>
 
             </TableRow>
-
         </TableLayout>
+
+        <TextView
+            android:id="@+id/Texto1"
+            android:layout_margin="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="Registrar Entrevista"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:background="@drawable/viewholder_background1"
+            android:textColor="@color/dorado"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/noControlA"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/hint06"
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/fechaEntre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="1dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/hint08"
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/temaEntre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:layout_marginTop="1dp"
+            style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:hint="@string/hint09"
+            android:textColorHint="@color/azul"
+            app:hintTextColor="@color/black"
+            app:boxStrokeColor="@color/azul">
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textCapSentences"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <Button
+            android:id="@+id/btnRegistrarEntrevista"
+            android:layout_width="match_parent"
+            android:layout_margin="40dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="25dp"
+            android:backgroundTint="@color/azul"
+            app:cornerRadius="20dp"
+            android:text="@string/boton04"
+            android:textAllCaps="true"
+            android:textColor="@color/dorado"
+            android:textSize="16sp"/>
 
 
     </LinearLayout>
